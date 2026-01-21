@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleAuth } from 'google-auth-library';
 
 export const config = {
-  maxDuration: 60, 
+  maxDuration: 120, 
 };
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
